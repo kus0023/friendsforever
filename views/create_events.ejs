@@ -1,0 +1,34 @@
+<div class="container">
+    <form method="post" action="/events/create" class="row">
+        <h3 class="center-align">Create Event</h3>
+        <div class="input-field col s12 m12">
+            <input id="name" type="text" class="validate" name="name" required>
+            <label for="name">Name of Event</label>
+        </div>
+
+        <div class="input-field col s12 m6">
+            <input id="host" type="text" class="validate" name="host" required>
+            <label for="host">Hosted By</label>
+        </div>
+
+        <div class="input-field col s12 m6">
+            <input id="location" type="text" class="validate" name="location" required>
+            <label for="location">Location</label>
+        </div>
+
+        <div class="input-field col s12">
+            <textarea id="description" class="materialize-textarea" name="description" required></textarea>
+            <label for="description">Description</label>
+        </div>
+
+        
+
+        <div class="center-align input-field col s12">
+            <button class="btn waves-effect waves-light" type="submit">Create New Event
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
+
+    </form>
+</div>
+
