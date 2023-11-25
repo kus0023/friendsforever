@@ -1,0 +1,75 @@
+<div class="container">
+    <h1>Emergency Contact Services in India</h1>
+
+<table>
+    <tr>
+        <th>Service</th>
+        <th>Contact Number</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td>Emergency (Police, Fire, Medical)</td>
+        <td>112</td>
+        <td>Main emergency contact number in India.</td>
+    </tr>
+    <tr>
+        <td>Elder Helpline (HelpAge India)</td>
+        <td>1800-180-1253</td>
+        <td>HelpAge India's helpline for support to senior citizens.</td>
+    </tr>
+    <tr>
+        <td>Ambulance Services</td>
+        <td>108</td>
+        <td>Dial for emergency medical services and ambulances.</td>
+    </tr>
+    
+</table>
+
+
+
+
+<hr>
+<h1 class="red white-text">Get Emergency services at your door step</h1>
+<form method="post" action="/emergency/create" class="row">
+    <div class="input-field col s12 m12">
+        <input id="name" type="text" class="validate" name="name" required>
+        <label for="name">Enter your name</label>
+    </div>
+
+    <div class="input-field col s12 m12">
+        <select>
+          <option value="" disabled selected>Choose your option</option>
+          <option value="medical">Medical</option>
+          <option value="police">Police</option>
+          <option value="fire">Fire</option>
+        </select>
+        <label>Type of service</label>
+      </div>
+
+    <div class="input-field col s12 m12">
+        <input id="location" type="text" class="validate" name="location" required>
+        <label for="location">Location/Address</label>
+    </div>
+
+    <div class="input-field col s12">
+        <textarea id="description" class="materialize-textarea" name="description"></textarea>
+        <label for="description">Write something relevant (Optional)</label>
+    </div>
+
+    <div class="input-field col s12">
+        <input id="contact" type="text" class="validate" name="constact"></input>
+        <label for="contact">Contact details</label>
+    </div>
+
+    
+
+    <div class="center-align input-field col s12">
+        <button class="btn waves-effect waves-light" type="submit">Submit
+            <i class="material-icons right">send</i>
+        </button>
+    </div>
+
+</form>
+</div>
+
+<script src="/static/js/emergency_contacts.js"></script>
