@@ -11,13 +11,21 @@
   <!-- Compiled and minified CSS materializecss -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+  <style>
+    body {
+      background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+      min-height: 100vh;
+    }
+  </style>
+
   <%- style %>
 </head>
 
 <body>
 
     <%- include('_nav_bar')%>
-    <%- body %>
+    <%- body %>    
+    <%- include('_footer') %>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

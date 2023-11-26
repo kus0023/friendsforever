@@ -39,7 +39,10 @@ class Events {
     eventCount=0
     
     constructor(){
-        this.gathering = [new Gathering("Gathering 1", "Demo Gathering", "Lucknow", "Praveen Rao")]
+        this.gathering = [
+            new Gathering("Happy hour", "Demo Gathering", "Lucknow", "Praveen Rao"),
+            new Gathering("Sweet hour", "Demo Gathering", "Jaipur", "Ezra Brown")
+        ]
     }
 
     getTopThreeEvents(){

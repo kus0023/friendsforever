@@ -21,14 +21,21 @@ Welcome to SeniorWellness, a user-friendly web application designed to enhance t
 
 ## Screenshots
 
+1. Home page
+
+![Home page](static/images/Wellness_home.png)
+
 1. Events Page
 
-![Events page](static/images/image.png)
+![Events page](static/images/wellness_events.png)
 
 2. Emergency services
 
-![Emergency page](static/images/image2.png)
+![Emergency page](static/images/wellness_emergency.png)
 
 3. common Things page
 
-![Common things](static/images/image3.png)
+![Common things](static/images/wellness_commonthings.png)
+
+4. Create Event
+![Create Event page](static/images/wellness_createevent.png)
